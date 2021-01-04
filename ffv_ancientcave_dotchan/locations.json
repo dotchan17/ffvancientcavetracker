@@ -1,0 +1,1222 @@
+[
+	{
+		"name": "Locations",
+		"access_rules": [
+			"[]"
+		],
+		"color": "#FFFFFF",
+		"children": [
+			{
+				"name": "World 1",
+				"children": [
+					{
+						"name": "Tule",
+						"sections": [
+							{
+								"clear_as_group": false,
+								"name": "Items",
+								"item_count": 11
+							},
+							{
+								"name": "4 Shops",
+								"capture_item": true,
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world1",
+								"x": 2089,
+								"y": 1433
+							},
+							{
+								"map": "world3",
+								"x": 2089,
+								"y": 1433
+							}
+						]
+					},
+					{
+						"name": "Castle Tycoon",
+						"sections": [
+							{
+								"clear_as_group": false,
+								"name": "Items",
+								"item_count": 15
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world1",
+								"x": 2943,
+								"y": 2119
+							}
+						]
+					},
+					{
+						"name": "Carwen",
+						"sections": [
+							{
+								"clear_as_group": false,
+								"name": "Items",
+								"item_count": 3
+							},
+							{
+								"name": "4 Shops",
+								"capture_item": true,
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world1",
+								"x": 3520,
+								"y": 1240
+							},
+							{
+								"map": "world3",
+								"x": 3520,
+								"y": 1240
+							}
+						]
+					},
+					{
+						"name": "Crescent Island",
+						"sections": [
+							{
+								"name": "Item",
+								"item_count": 1
+							},
+							{
+								"name": "4 Shops",
+								"capture_item": true,
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world1",
+								"x": 3465,
+								"y": 3225
+							},
+							{
+								"map": "world3",
+								"x": 3465,
+								"y": 3225
+							}
+						]
+					},
+					{
+						"name": "Black Chocobo Forest",
+						"sections": [
+							{
+								"name": "Items",
+								"item_count": 2
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world1",
+								"x": 3400,
+								"y": 3350
+							}
+						]
+					},
+					{
+						"name": "Sealed Castle Kuzar",
+						"sections": [
+							{
+								"clear_as_group": false,
+								"name": "1st Tablet",
+								"access_rules": [
+									"tablet1",
+									"{}"
+								],
+								"capture_item": true,
+								"item_count": 3
+							},
+							{
+								"capture_item": true,
+								"clear_as_group": false,
+								"name": "2nd Tablet",
+								"access_rules": [
+									"tablet2",
+									"{}"
+								],
+								"item_count": 3
+							},
+							{
+								"capture_item": true,
+								"clear_as_group": false,
+								"name": "3rd Tablet",
+								"access_rules": [
+									"tablet3",
+									"{}"
+								],
+								"item_count": 3
+							},
+							{
+								"capture_item": true,
+								"clear_as_group": false,
+								"name": "4th Tablet",
+								"access_rules": [
+									"tablet4",
+									"{}"
+								],
+								"item_count": 3
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world2",
+								"x": 2400,
+								"y": 1320
+							},
+							{
+								"map": "world3",
+								"x": 2400,
+								"y": 1320
+							}
+						]
+					},
+					{
+						"name": "Mirage Village",
+						"sections": [
+							{
+								"clear_as_group": false,
+								"name": "Items",
+								"item_count": 2
+							},
+							{
+								"name": "4 Shops",
+								"capture_item": true,
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world3",
+								"x": 2760,
+								"y": 3735
+							}
+						]
+					},
+					{
+						"name": "Moogle Village",
+						"access_rules": [
+							"moogle"
+						],
+						"sections": [
+							{
+								"clear_as_group": false,
+								"name": "Items",
+								"item_count": 7
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world2",
+								"x": 3510,
+								"y": 725
+							}
+						]
+					},
+					{
+						"name": "Mua",
+						"sections": [
+							{
+								"clear_as_group": false,
+								"name": "Items",
+								"item_count": 3
+							},
+							{
+								"name": "3 Shops",
+								"capture_item": true,
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world2",
+								"x": 370,
+								"y": 1830
+							},
+							{
+								"map": "world3",
+								"x": 370,
+								"y": 1830
+							}
+						]
+					},
+					{
+						"name": "Phoenix Tower",
+						"sections": [
+							{
+								"clear_as_group": false,
+								"name": "Items",
+								"item_count": 11
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world3",
+								"x": 2984,
+								"y": 1419
+							}
+						]
+					},
+					{
+						"name": "Pirates Cave",
+						"sections": [
+							{
+								"clear_as_group": false,
+								"name": "Items",
+								"item_count": 5
+							},
+						],
+						"map_locations": [
+							{
+								"map": "world1",
+								"x": 2648,
+								"y": 1850
+							},
+							{
+								"map": "world3",
+								"x": 2648,
+								"y": 1850
+							}
+						]
+					},
+					{
+						"name": "Pyramid",
+						"access_rules": [
+							"pyramid"
+						],
+						"sections": [
+							{
+								"clear_as_group": false,
+								"name": "Items",
+								"item_count": 29
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world3",
+								"x": 712,
+								"y": 1962
+							}
+						]
+					},
+					{
+						"name": "Castle Surgate",
+						"sections": [
+							{
+								"clear_as_group": false,
+								"name": "Items",
+								"item_count": 3
+							},
+							{
+								"name": "4 Shops",
+								"capture_item": true,
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world2",
+								"x": 1230,
+								"y": 1765
+							},
+							{
+								"map": "world3",
+								"x": 1230,
+								"y": 1765
+							}
+						]
+					},
+					{
+						"name": "Walse",
+						"sections": [
+							{
+								"name": "Item",
+								"item_count": 1
+							},
+							{
+								"name": "4 Shops",
+								"capture_item": true,
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world1",
+								"x": 3432,
+								"y": 1850
+							},
+							{
+								"map": "world3",
+								"x": 3432,
+								"y": 1850
+							}
+						]
+					},
+					{
+						"name": "Karnak",
+						"sections": [
+							{
+								"name": "1 Item + 1 Shop (Post Iron Claw only)",
+								"access_rules": [
+									"ironclaw"
+								],
+								"item_count": 2,
+								"capture_item": true
+							},
+							{
+								"name": "4 Shops",
+								"capture_item": true,
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world1",
+								"x": 1392,
+								"y": 1200
+							},
+							{
+								"map": "world3",
+								"x": 1392,
+								"y": 1200
+							}
+						]
+					},
+					{
+						"name": "Istory",
+						"sections": [
+							{
+								"clear_as_group": false,
+								"name": "Items",
+								"item_count": 2
+							},
+							{
+								"name": "3 Shops",
+								"capture_item": true,
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world1",
+								"x": 576,
+								"y": 664
+							},
+							{
+								"map": "world3",
+								"x": 576,
+								"y": 664
+							}
+						]
+					},
+					{
+						"name": "Jacole",
+						"sections": [
+							{
+								"name": "4 Shops",
+								"capture_item": true,
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world1",
+								"x": 935,
+								"y": 3145
+							},
+							{
+								"map": "world3",
+								"x": 935,
+								"y": 3145
+							}
+						]
+					},
+					{
+						"name": "Lix",
+						"sections": [
+							{
+								"name": "Items",
+								"item_count": 1
+							},
+							{
+								"name": "4 Shops",
+								"capture_item": true,
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world1",
+								"x": 2795,
+								"y": 745
+							},
+							{
+								"map": "world3",
+								"x": 2795,
+								"y": 745
+							}
+						]
+					},
+					{
+						"name": "Rugor",
+						"sections": [
+							{
+								"name": "Item (Requires Ribbon)",
+								"item_count": 1
+							},
+							{
+								"name": "4 Shops",
+								"capture_item": true,
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world2",
+								"x": 2545,
+								"y": 887
+							},
+							{
+								"map": "world3",
+								"x": 2545,
+								"y": 887
+							}
+						]
+					},
+					{
+						"name": "Kelb",
+						"sections": [
+							{
+								"clear_as_group": false,
+								"name": "Items (1 requires Toad Status)",
+								"item_count": 2
+							},
+							{
+								"name": "4 Shops",
+								"capture_item": true,
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world2",
+								"x": 1336,
+								"y": 2360
+							},
+							{
+								"map": "world3",
+								"x": 1336,
+								"y": 2360
+							}
+						]
+					},
+					{
+						"name": "Istory Falls (North)",
+						"sections": [
+							{
+								"name": "Magic Lamp Spot",
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world3",
+								"x": 875,
+								"y": 690
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Bosses",
+		"color": "#000000",
+		"children": [
+			{
+				"name": "Boss",
+				"group": "Boss",
+				"children": [
+					{
+						"name": "Wind Shrine",
+						"sections": [
+							{
+								"clear_as_group": false,
+								"hosted_item": "wingraptor",
+								"item_count": 5
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world1",
+								"x": 2915,
+								"y": 840
+							}
+						]
+					},
+					{
+						"name": "Canal",
+						"sections": [
+							{
+								"hosted_item": "karlibos"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world1",
+								"x": 2750,
+								"y": 1420
+							}
+						]
+					},
+					{
+						"name": "Ship Graveyard",
+						"sections": [
+							{
+								"clear_as_group": false,
+								"access_rules": [
+									"karlibos"
+								],
+								"hosted_item": "siren",
+								"item_count": 8
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world1",
+								"x": 3380,
+								"y": 760
+							}
+						]
+					},
+					{
+						"name": "North Mountain",
+						"sections": [
+							{
+								"clear_as_group": false,
+								"hosted_item": "magisa",
+								"item_count": 2
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world1",
+								"x": 3625,
+								"y": 630
+							}
+						]
+					},
+					{
+						"name": "North Mountain",
+						"sections": [
+							{
+								"hosted_item": "magisa"
+							},
+							{
+								"name": "(World 3 Only)",
+								"hosted_item": "bahamut"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world3",
+								"x": 3625,
+								"y": 630
+							}
+						]
+					},
+					{
+						"name": "Walse Tower",
+						"sections": [
+							{
+								"clear_as_group": false,
+								"access_rules": [
+									"walse"
+								],
+								"hosted_item": "galura",
+								"item_count": 4
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world1",
+								"x": 3200,
+								"y": 1355
+							}
+						]
+					},
+					{
+						"name": "Steamship",
+						"sections": [
+							{
+								"clear_as_group": false,
+								"access_rules": [
+									"steamship"
+								],
+								"hosted_item": "liquidflame",
+								"item_count": 9
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world1",
+								"x": 1355,
+								"y": 1270
+							}
+						]
+					},
+					{
+						"name": "Castle Karnak",
+						"sections": [
+							{
+								"clear_as_group": false,
+								"access_rules": [
+									"liquidflame"
+								],
+								"hosted_item": "ironclaw",
+								"item_count": 15
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world1",
+								"x": 1335,
+								"y": 1220
+							}
+						]
+					},
+					{
+						"name": "Desert",
+						"sections": [
+							{
+								"access_rules": [
+									"bait"
+								],
+								"hosted_item": "sandworm"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world1",
+								"x": 730,
+								"y": 1760
+							}
+						]
+					},
+					{
+						"name": "Tycoon Meteor",
+						"sections": [
+							{
+								"item_count": 1,
+								"hosted_item": "adamant"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world1",
+								"x": 2810,
+								"y": 2280
+							}
+						]
+					},
+					{
+						"name": "Castle Walse",
+						"sections": [
+							{
+								"clear_as_group": false,
+								"hosted_item": "shiva",
+								"item_count": 7
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world1",
+								"x": 3375,
+								"y": 1850
+							},
+							{
+								"map": "world3",
+								"x": 3375,
+								"y": 1850
+							}
+						]
+					},
+					{
+						"name": "Library Of The Ancients",
+						"sections": [
+							{
+								"name": "Ifrit",
+								"item_count": 1,
+								"hosted_item": "ifrit"
+							},
+							{
+								"clear_as_group": false,
+								"name": "Byblos",
+								"item_count": 2,
+								"access_rules": [
+									"fire"
+								],
+								"hosted_item": "byblos"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world1",
+								"x": 1270,
+								"y": 1915
+							}
+						]
+					},
+					{
+						"name": "Library Of The Ancients",
+						"sections": [
+							{
+								"name": "Ifrit",
+								"hosted_item": "ifrit"
+							},
+							{
+								"name": "Byblos",
+								"access_rules": [
+									"fire"
+								],
+								"hosted_item": "byblos"
+							},
+							{
+								"name": "Atop The Library (World 3 Only)",
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world3",
+								"x": 1270,
+								"y": 1915
+							}
+						]
+					},
+					{
+						"name": "Ronka Ruins",
+						"sections": [
+							{
+								"clear_as_group": false,
+								"name": "CrayClaw",
+								"hosted_item": "crayclaw",
+								"item_count": 3
+							},
+							{
+								"name": "SolCannon",
+								"access_rules": [
+									"adamantite"
+								],
+								"hosted_item": "solcannon"
+							},
+							{
+								"clear_as_group": false,
+								"name": "ArchaeAvis",
+								"access_rules": [
+									"solcannon"
+								],
+								"hosted_item": "archaeavis",
+								"item_count": 11
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world1",
+								"x": 1020,
+								"y": 2600
+							}
+						]
+					},
+					{
+						"name": "Ronka Meteor",
+						"sections": [
+							{
+								"access_rules": [
+									"crayclaw"
+								],
+								"hosted_item": "chimbrain"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world1",
+								"x": 1000,
+								"y": 2570
+							}
+						]
+					},
+					{
+						"name": "Karnak Meteor",
+						"sections": [
+							{
+								"hosted_item": "titan"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world1",
+								"x": 1945,
+								"y": 1465
+							}
+						]
+					},
+					{
+						"name": "Walse Meteor",
+						"sections": [
+							{
+								"hosted_item": "puroboros"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world1",
+								"x": 3272,
+								"y": 1353
+							}
+						]
+					},
+					{
+						"name": "Castle Exdeath",
+						"sections": [
+							{
+								"clear_as_group": false,
+								"name": "Gilgamesh I",
+								"access_rules": [
+									"antibarrier"
+								],
+								"hosted_item": "gilga1",
+								"item_count": 2
+							},
+							{
+								"clear_as_group": false,
+								"name": "Carbunkle",
+								"access_rules": [
+									"antibarrier,bracelet"
+								],
+								"hosted_item": "carbunkle",
+								"item_count": 12
+							},
+							{
+								"clear_as_group": false,
+								"name": "Gilgamesh IV",
+								"access_rules": [
+									"antibarrier,bracelet"
+								],
+								"hosted_item": "gilga4"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world2",
+								"x": 2570,
+								"y": 2490
+							}
+						]
+					},
+					{
+						"name": "Big Bridge",
+						"sections": [
+							{
+								"access_rules": [
+									"bridge"
+								],
+								"hosted_item": "gilga2"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world2",
+								"x": 2320,
+								"y": 2487
+							}
+						]
+					},
+					{
+						"name": "Underground Waterway",
+						"sections": [
+							{
+								"clear_as_group": false,
+								"hosted_item": "tyrasaurus",
+								"item_count": 2
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world2",
+								"x": 2913,
+								"y": 1280
+							}
+						]
+					},
+					{
+						"name": "Hiryuu Valley",
+						"sections": [
+							{
+								"clear_as_group": false,
+								"hosted_item": "hiryuuplant",
+								"item_count": 7
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world2",
+								"x": 1290,
+								"y": 2170
+							}
+						]
+					},
+					{
+						"name": "Zeza's Fleet",
+						"sections": [
+							{
+								"access_rules": [
+									"hiryuu"
+								],
+								"hosted_item": "gilgaenki"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world2",
+								"x": 2855,
+								"y": 2620
+							}
+						]
+					},
+					{
+						"name": "Barrier Tower",
+						"sections": [
+							{
+								"clear_as_group": false,
+								"access_rules": [
+									"sub"
+								],
+								"item_count": 4,
+								"hosted_item": "atomos"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world2",
+								"x": 2680,
+								"y": 2590
+							}
+						]
+					},
+					{
+						"name": "Mua Forest",
+						"sections": [
+							{
+								"clear_as_group": false,
+								"access_rules": [
+									"branch"
+								],
+								"hosted_item": "guardian",
+								"item_count": 11
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world2",
+								"x": 905,
+								"y": 1945
+							}
+						]
+					},
+					{
+						"name": "Antlion's Pit (req. Boco)",
+						"sections": [
+							{
+								"hosted_item": "antlion"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world3",
+								"x": 1945,
+								"y": 1420
+							}
+						]
+					},
+					{
+						"name": "Underwater Walse Tower",
+						"sections": [
+							{
+								"access_rules": [
+									"sub"
+								],
+								"hosted_item": "gogo"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world3",
+								"x": 3240,
+								"y": 1420
+							}
+						]
+					},
+					{
+						"name": "Guardian Tree",
+						"sections": [
+							{
+								"hosted_item": "merugene"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world3",
+								"x": 905,
+								"y": 1945
+							}
+						]
+					},
+					{
+						"name": "Fork Tower",
+						"access_rules": [
+							"guardian"
+						],
+						"sections": [
+							{
+								"clear_as_group": false,
+								"hosted_item": "omniscient",
+								"item_count": 2
+							},
+							{
+								"clear_as_group": false,
+								"hosted_item": "minotaurus",
+								"item_count": 2
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world3",
+								"x": 3305,
+								"y": 3210
+							}
+						]
+					},
+					{
+						"name": "Istory Falls",
+						"sections": [
+							{
+								"clear_as_group": false,
+								"access_rules": [
+									"falls,sub"
+								],
+								"hosted_item": "leviathan",
+								"item_count": 14
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world3",
+								"x": 905,
+								"y": 715
+							}
+						]
+					},
+					{
+						"name": "Island Shrine",
+						"sections": [
+							{
+								"clear_as_group": false,
+								"access_rules": [
+									"shrine"
+								],
+								"hosted_item": "stalker",
+								"item_count": 14
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world3",
+								"x": 2120,
+								"y": 2490
+							}
+						]
+					},
+					{
+						"name": "Jacole Ruins",
+						"sections": [
+							{
+								"clear_as_group": false,
+								"hosted_item": "odin",
+								"item_count": 2
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world3",
+								"x": 1225,
+								"y": 2840
+							}
+						]
+					},
+					{
+						"name": "Castle Bal",
+						"sections": [
+							{
+								"clear_as_group": false,
+								"item_count": 5,
+								"hosted_item": "abductor"
+							},
+							{
+								"name": "4 Shops",
+								"capture_item": true,
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world2",
+								"x": 1360,
+								"y": 2805
+							},
+							{
+								"map": "world3",
+								"x": 1360,
+								"y": 2805
+							}
+						]
+					},
+					{
+						"name": "Great Trench",
+						"access_rules": [
+							"trench,sub"
+						],
+						"sections": [
+							{
+								"clear_as_group": false,
+								"hosted_item": "triton",
+								"item_count": 5
+							},
+							{
+								"name": "Dwarven Shop",
+								"item_count": 1,
+								"capture_item": true
+							}
+						],
+						"map_locations": [
+							{
+								"map": "world3",
+								"x": 3625,
+								"y": 3055
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]

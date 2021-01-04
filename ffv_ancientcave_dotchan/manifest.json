@@ -1,0 +1,17 @@
+﻿{
+  "name": "FFV Ancient Cave",
+  "game_name": "Final Fantasy V: Ancient Cave",
+  "game_variant": "Ancient Cave",
+  "package_version": "1.0.0.0",
+  "package_uid": "ffv_anciencave_dotchan",
+  "author": "dotchan",
+  "variants":
+		{
+			"standard":{
+				"display_name": "SNES Cave"
+			},
+			"gba":{
+				"display_name": "GBA Cave"
+			}
+		}
+}

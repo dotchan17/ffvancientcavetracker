@@ -1,0 +1,272 @@
+﻿{
+	"map_enabled": true,
+	"auto_pin_capturing_locations": true,
+	"auto_unpin_on_clear": true,
+	"allow_resize": true,
+	"layout_swap_left_right": false,
+	"disabled_image_filter": "grayscale, dim",
+	"layouts": {
+		"capture_item_grid": {
+			"type": "array",
+			"h_alignment": "vertical",
+			"content": [
+				{
+					"type": "itemgrid",
+					"h_alignment": "center",
+					"item_margin": "1,1",
+					"rows": [
+						[
+							"armor",
+							"weapon",
+							"relic"
+						],
+						[
+							"bmag",
+							"wmag",
+							"dmag",
+						],
+						[
+							"consumable",
+							"crystal",
+							"ability",
+							"other"
+						]
+					]
+				}
+			]
+		},
+		"shared_item_grid": {
+			"type": "array",
+			"h_alignment": "vertical",
+			"content": [
+				{
+					"type": "array",
+					"orientation": "vertical",
+					"margin": "0,0,0,0",
+					"content": [
+						{
+							"type": "array",
+							"orientation": "horizontal",
+							"margin": "18,-5,0,0",
+							"content": [
+								{
+									"type": "itemgrid",
+									"h_alignment": "center",
+									"item_margin": "1,1",
+									"rows": [
+										[
+											"tablet1",
+											"tablet2",
+											"tablet3",
+											"tablet4"
+										],
+										[
+											"pyramid",
+											"shrine",
+											"trench",
+											"falls"
+										],
+										[
+											"walse",
+											"steamship",
+											"sub",
+											"bridge"
+										],
+										[
+											"adamantite",
+											"branch",
+											"hiryuu",
+											"bracelet"
+										],
+										[
+										  "antibarrier",
+											"fire",
+											"moogle",
+											"bait"
+										],
+										[
+											"radar"
+										]
+									]
+								}
+							]
+						},
+						{
+							"type": "array",
+							"orientation": "horizontal",
+							"margin": "0,0,0,0",
+							"content": [
+								//LINHA
+								{
+									"type": "itemgrid",
+									"h_alignment": "center",
+									"item_margin": "0,0",
+									"rows": [
+										[
+											"linver",
+											"linver",
+											"linver",
+											"linver",
+											"linver"
+										]
+									]
+								}
+							]
+						},
+						{
+							"type": "array",
+							"orientation": "horizontal",
+							"margin": "0,0,0,0",
+							"content": [
+								{
+									"type": "itemgrid",
+									"h_alignment": "center",
+									"item_margin": "1,1",
+									"rows": [
+										[
+											"wingraptor",
+											"karlibos",
+											"siren",
+											"magisa",
+											"galura"
+										],
+										[
+											"liquidflame",
+											"ironclaw",
+											"sandworm",
+											"adamant",
+											"shiva"
+										],
+										[
+											"byblos",
+											"solcannon",
+											"archaeavis",
+											"ifrit",
+											"crayclaw"
+										],
+										[
+											"chimbrain",
+											"titan",
+											"puroboros",
+											"gilga1",
+											"gilga2"
+										],
+										[
+											"tyrasaurus",
+											"antlion",
+											"gogo",
+											"abductor",
+											"hiryuuplant"
+										],
+										[
+											"gilgaenki",
+											"atomos",
+											"carbunkle",
+											"gilga4",
+											"guardian"
+										],
+										[
+											"merugene",
+											"omniscient",
+											"minotaurus",
+											"leviathan",
+											"stalker"
+										],
+										[
+											"odin",
+											"triton",
+											"bahamut"
+										]
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		"tracker_capture_item": {
+			"type": "container",
+			"content": {
+				"type": "layout",
+				"key": "capture_item_grid"
+			}
+		},
+		"tracker_default": {
+			"type": "container",
+			"background": "#212121",
+			"content": {
+				"type": "dock",
+				"dropshadow": true,
+				"content": [
+					{
+						"type": "dock",
+						"dock": "left",
+						"h_alignment": "stretch",
+						"content": [
+							{
+								"type": "dock",
+								"dock": "top",
+								"content": [
+									{
+										"type": "group",
+										"header": "Items",
+										"dock": "top",
+										"content": {
+											"type": "layout",
+											"key": "shared_item_grid"
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "tabbed",
+						"tabs": [
+							{
+								"title": "World 1",
+								"content": {
+									"type": "map",
+									"maps": [
+										"world1"
+									]
+								}
+							},
+							{
+								"title": "World 2",
+								"content": {
+									"type": "map",
+									"maps": [
+										"world2"
+									]
+								}
+							},
+							{
+								"title": "World 3",
+								"content": {
+									"type": "map",
+									"maps": [
+										"world3"
+									]
+								}
+							}
+						]
+					},
+					{
+						"type": "group",
+						"header": "Pinned Locations",
+						"content": {
+							"type": "recentpins",
+							"style": "wrap",
+							"h_alignment": "stretch",
+							"v_alignment": "stretch",
+							"orientation": "vertical",
+							"compact": true
+						}
+					}
+				]
+			}
+		}
+	}
+}

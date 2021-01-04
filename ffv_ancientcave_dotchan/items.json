@@ -1,0 +1,392 @@
+﻿[
+/*
+	Jobs
+*/
+  {
+    "name": "Bard",
+    "type": "toggle",
+    "img": "images/bard.png",
+    "codes": "bard"
+  },
+  {
+    "name": "Beastmaster",
+    "type": "toggle",
+    "img": "images/beastmaster.png",
+    "codes": "beastmaster"
+  },
+  {
+    "name": "Berserker",
+    "type": "toggle",
+    "img": "images/berserker.png",
+    "codes": "berserker"
+  },
+  {
+    "name": "Black Mage",
+    "type": "toggle",
+    "img": "images/black.png",
+    "codes": "black"
+  },
+  {
+    "name": "Blue Mage",
+    "type": "toggle",
+    "img": "images/blue.png",
+    "codes": "blue"
+  },
+  {
+    "name": "Cannoneer",
+    "type": "toggle",
+    "img": "images/cannoneer.png",
+    "codes": "cannoneer"
+  },
+  {
+    "name": "Chemist",
+    "type": "toggle",
+    "img": "images/chemist.png",
+    "codes": "chemist"
+  },
+  {
+    "name": "Dancer",
+    "type": "toggle",
+    "img": "images/dancer.png",
+    "codes": "dancer"
+  },
+  {
+    "name": "Dragoon",
+    "type": "toggle",
+    "img": "images/dragoon.png",
+    "codes": "dragoon"
+  },
+  {
+    "name": "Freelancer",
+    "type": "toggle",
+    "img": "images/freelancer.png",
+    "codes": "freelancer"
+  },
+  {
+    "name": "Geomancer",
+    "type": "toggle",
+    "img": "images/geomancer.png",
+    "codes": "geomancer"
+  },
+  {
+    "name": "Gladiator",
+    "type": "toggle",
+    "img": "images/gladiator.png",
+    "codes": "gladiator"
+  },
+  {
+    "name": "Knight",
+    "type": "toggle",
+    "img": "images/knight.png",
+    "codes": "knight"
+  },
+  {
+    "name": "Mimic",
+    "type": "toggle",
+    "img": "images/mimic.png",
+    "codes": "mimic"
+  },
+  {
+    "name": "Monk",
+    "type": "toggle",
+    "img": "images/monk.png",
+    "codes": "monk"
+  },
+  {
+    "name": "Mystic",
+    "type": "toggle",
+    "img": "images/mystic.png",
+    "codes": "mystic"
+  },
+  {
+    "name": "Necromancer",
+    "type": "toggle",
+    "img": "images/necromancer.png",
+    "codes": "necromancer"
+  },
+  {
+    "name": "Ninja",
+    "type": "toggle",
+    "img": "images/ninja.png",
+    "codes": "ninja"
+  },
+  {
+    "name": "Oracle",
+    "type": "toggle",
+    "img": "images/oracle.png",
+    "codes": "oracle"
+  },
+  {
+    "name": "Ranger",
+    "type": "toggle",
+    "img": "images/ranger.png",
+    "codes": "ranger"
+  },
+  {
+    "name": "Red Mage",
+    "type": "toggle",
+    "img": "images/red.png",
+    "codes": "red"
+  },
+  {
+    "name": "Samurai",
+    "type": "toggle",
+    "img": "images/samurai.png",
+    "codes": "samurai"
+  },
+  {
+    "name": "Summoner",
+    "type": "toggle",
+    "img": "images/summoner.png",
+    "codes": "summoner"
+  },
+  {
+    "name": "Superhero",
+    "type": "toggle",
+    "img": "images/superhero.png",
+    "codes": "superhero"
+  },
+  {
+    "name": "Thief",
+    "type": "toggle",
+    "img": "images/thief.png",
+    "codes": "thief"
+  },
+  {
+    "name": "Time Mage",
+    "type": "toggle",
+    "img": "images/time.png",
+    "codes": "time"
+  },
+  {
+    "name": "White Mage",
+    "type": "toggle",
+    "img": "images/white.png",
+    "codes": "white"
+  },
+/*
+	Skills
+*/
+  {
+    "name": "Black Magic",
+    "type": "consumable",
+    "img": "images/skill_black.png",
+    "codes": "skill_black",
+	"max_quantity": 6
+  },
+  {
+    "name": "Summon Magic",
+    "type": "consumable",
+    "img": "images/skill_summon.png",
+    "codes": "skill_summon",
+	"max_quantity": 6
+  },
+  {
+    "name": "Spellblades",
+    "type": "consumable",
+    "img": "images/skill_spellblade.png",
+    "codes": "skill_spellblade",
+	"max_quantity": 6
+  },
+  {
+    "name": "Time Magic",
+    "type": "consumable",
+    "img": "images/skill_time.png",
+    "codes": "skill_time",
+	"max_quantity": 6
+  },
+  {
+    "name": "White Magic",
+    "type": "consumable",
+    "img": "images/skill_white.png",
+    "codes": "skill_white",
+	"max_quantity": 6
+  },
+/*
+	Songs
+*/
+  {
+    "name": "Alluring Air",
+    "type": "toggle",
+    "img": "images/allure.png",
+    "codes": "allure"
+  },
+  {
+    "name": "Hero's Rime",
+    "type": "toggle",
+    "img": "images/hero.png",
+    "codes": "hero"
+  },
+  {
+    "name": "Mana's Pean",
+    "type": "toggle",
+    "img": "images/mana.png",
+    "codes": "mana"
+  },
+  {
+    "name": "Mighty March",
+    "type": "toggle",
+    "img": "images/mighty.png",
+    "codes": "mighty"
+  },
+  {
+    "name": "Requiem",
+    "type": "toggle",
+    "img": "images/requiem.png",
+    "codes": "requiem"
+  },
+  {
+    "name": "Romeo's Ballad",
+    "type": "toggle",
+    "img": "images/romeo.png",
+    "codes": "romeo"
+  },
+  {
+    "name": "Sinewy Etude",
+    "type": "toggle",
+    "img": "images/sinew.png",
+    "codes": "sinew"
+  },
+  {
+    "name": "Swift Song",
+    "type": "toggle",
+    "img": "images/swift.png",
+    "codes": "swift"
+  },
+/*
+	Items
+*/
+  {
+    "name": "Chicken Knife",
+    "type": "toggle",
+    "img": "images/chicken.png",
+    "codes": "chicken"
+  },
+  {
+    "name": "Magic Lamp",
+    "type": "toggle",
+    "img": "images/lamp.png",
+    "codes": "lamp"
+  },
+/*
+	Magic
+*/
+  {
+    "name": "Bahamut",
+    "type": "toggle",
+    "img": "images/bahamut.png",
+    "codes": "bahamut"
+  }, 
+  {
+    "name": "Carbuncle",
+    "type": "toggle",
+    "img": "images/carbuncle.png",
+    "codes": "carbuncle"
+  }, 
+  {
+    "name": "Chocobo",
+    "type": "toggle",
+    "img": "images/chocobo.png",
+    "codes": "chocobo"
+  }, 
+{
+    "name": "Golem",
+    "type": "toggle",
+    "img": "images/golem.png",
+    "codes": "golem"
+  },   
+  {
+    "name": "Ifrit",
+    "type": "toggle",
+    "img": "images/ifrit.png",
+    "codes": "ifrit"
+  },
+  {
+    "name": "Leviathan",
+    "type": "toggle",
+    "img": "images/levia.png",
+    "codes": "levia"
+  }, 
+  {
+    "name": "Odin",
+    "type": "toggle",
+    "img": "images/odin.png",
+    "codes": "odin"
+  }, 
+  {
+    "name": "Phoenix",
+    "type": "toggle",
+    "img": "images/phoenix.png",
+    "codes": "phoenix"
+  }, 
+  {
+    "name": "Ramuh",
+    "type": "toggle",
+    "img": "images/ramuh.png",
+    "codes": "ramuh"
+  },   
+  {
+    "name": "Remora",
+    "type": "toggle",
+    "img": "images/remora.png",
+    "codes": "remora"
+  }, 
+  {
+    "name": "Shoat (Catoblepas)",
+    "type": "toggle",
+    "img": "images/shoat.png",
+    "codes": "shoat"
+  }, 
+  {
+    "name": "Shiva",
+    "type": "toggle",
+    "img": "images/shiva.png",
+    "codes": "shiva"
+  }, 
+  {
+    "name": "Syldra",
+    "type": "toggle",
+    "img": "images/syldra.png",
+    "codes": "syldra"
+  }, 
+  {
+    "name": "Sylph",
+    "type": "toggle",
+    "img": "images/sylph.png",
+    "codes": "sylph"
+  }, 
+  {
+    "name": "Titan",
+    "type": "toggle",
+    "img": "images/titan.png",
+    "codes": "titan"
+  }, 
+/*
+	Layout
+*/
+  {
+    "name": "linha",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/linha.png",
+        "codes": "linhaa"
+      }
+    ]
+  },
+
+  {
+    "name": "linver",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/linver.png",
+        "codes": "linver"
+      }
+    ]
+  },
+
+ ] 
+  
