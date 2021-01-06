@@ -15,11 +15,11 @@
       "link": "https://github.com/dotchan17/ffvancientcavetracker/blob/main/ffv_ancientcave_dotchan.zip",
       "variants": [
         {
-          "name": "SNES Cave Tracker",
+          "name": "SNES Cave",
           "flags": [ "chathud" ]
         },
         {
-          "name": "GBA Cave Tracker",
+          "name": "GBA Cave",
           "flags": [ "chathud" ]
         }      ]
     }
