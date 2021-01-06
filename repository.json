@@ -6,10 +6,12 @@
       "author": "dotchan",
       "game_name": "Final Fantasy V",
       "game_variant": "Ancient Cave",
-      "version": "1.0.0.0",
+      "package_version": "1.0.0.0",
+      "package_uid": "ffv_anciencave_dotchan",
+
       "flags": [ "chathud" ],
       "required_app_version": "2.1.0.0",
-      "uid": "ffv_ancientcave_dotchan",
+
       "link": "https://github.com/dotchan17/ffvancientcavetracker/blob/main/ffv_ancientcave_dotchan.zip",
       "variants": [
         {
