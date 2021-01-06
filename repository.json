@@ -3,11 +3,11 @@
   "packages": [
     {
       "name": "FFV Ancient Cave",
-      "author": "dotchan",
       "game_name": "Final Fantasy V",
       "game_variant": "Ancient Cave",
       "package_version": "1.0.0.0",
       "package_uid": "ffv_anciencave_dotchan",
+      "author": "dotchan",
 
       "flags": [ "chathud" ],
       "required_app_version": "2.1.0.0",
