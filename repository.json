@@ -6,7 +6,7 @@
       "game_name": "Final Fantasy V",
       "game_variant": "Ancient Cave",
       "version": "1.0.0.0",
-      "package_uid": "ffv_anciencave_dotchan",
+      "uid": "ffv_anciencave_dotchan",
       "author": "dotchan",
 
       "flags": [ "chathud" ],
