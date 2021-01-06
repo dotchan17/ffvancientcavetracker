@@ -1,0 +1,24 @@
+{
+  "name": "EmoTracker Official Packages",
+  "packages": [
+    {
+      "name": "",
+      "author": "dotchan",
+      "game_name": "Final Fantasy V Ancient Cave",
+      "version": "1.0.0.0",
+      "flags": [ "snes", "gba" ],
+      "required_app_version": "2.1.0.0",
+      "uid": "ffv_ancientcave_dotchan",
+      "link": "https://emotracker.net/service/packages/alttpr_emotracker_emosaru.zip",
+      "variants": [
+        {
+          "name": "SNES Cave Tracker",
+          "flags": [ "snes" ]
+        },
+        {
+          "name": "GBA Cave Tracker",
+          "flags": [ "gba" ]
+        },      ]
+    }
+  ]
+}
