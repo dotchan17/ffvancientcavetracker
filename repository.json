@@ -2,7 +2,7 @@
   "name": "Dotchan's FFV Ancient Cave Tracker",
   "packages": [
     {
-      "name": "Ancient Cave",
+      "name": "FFV Ancient Cave",
       "author": "dotchan",
       "game_name": "Final Fantasy V",
       "game_variant": "Ancient Cave",
