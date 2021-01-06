@@ -9,7 +9,7 @@
       "flags": [ "snes", "gba" ],
       "required_app_version": "2.1.0.0",
       "uid": "ffv_ancientcave_dotchan",
-      "link": "https://emotracker.net/service/packages/alttpr_emotracker_emosaru.zip",
+      "link": "https://github.com/dotchan17/ffvancientcavetracker/blob/main/ffv_ancientcave_dotchan.zip",
       "variants": [
         {
           "name": "SNES Cave Tracker",
