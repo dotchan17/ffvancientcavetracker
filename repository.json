@@ -1,10 +1,10 @@
 {
-  "name": "EmoTracker Official Packages",
+  "name": "Dotchan's FFV Ancient Cave Tracker",
   "packages": [
     {
-      "name": "",
+      "name": "Ancient Cave",
       "author": "dotchan",
-      "game_name": "Final Fantasy V Ancient Cave",
+      "game_name": "Final Fantasy V",
       "version": "1.0.0.0",
       "flags": [ "snes", "gba" ],
       "required_app_version": "2.1.0.0",
