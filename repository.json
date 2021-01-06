@@ -13,11 +13,11 @@
       "variants": [
         {
           "name": "SNES Cave Tracker",
-          "flags": [ "snes" ]
+          "flags": [ "chathud" ]
         },
         {
           "name": "GBA Cave Tracker",
-          "flags": [ "gba" ]
+          "flags": [ "chathud" ]
         }      ]
     }
   ]
