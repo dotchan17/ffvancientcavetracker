@@ -165,44 +165,6 @@
     "codes": "white"
   },
 /*
-	Skills
-*/
-  {
-    "name": "Black Magic",
-    "type": "consumable",
-    "img": "images/skill_black.png",
-    "codes": "skill_black",
-	"max_quantity": 6
-  },
-  {
-    "name": "Summon Magic",
-    "type": "consumable",
-    "img": "images/skill_summon.png",
-    "codes": "skill_summon",
-	"max_quantity": 6
-  },
-  {
-    "name": "Spellblades",
-    "type": "consumable",
-    "img": "images/skill_spellblade.png",
-    "codes": "skill_spellblade",
-	"max_quantity": 6
-  },
-  {
-    "name": "Time Magic",
-    "type": "consumable",
-    "img": "images/skill_time.png",
-    "codes": "skill_time",
-	"max_quantity": 6
-  },
-  {
-    "name": "White Magic",
-    "type": "consumable",
-    "img": "images/skill_white.png",
-    "codes": "skill_white",
-	"max_quantity": 6
-  },
-/*
 	Songs
 */
   {
