@@ -12,7 +12,7 @@
       "flags": [ "chathud" ],
       "required_app_version": "2.1.0.0",
 
-      "link": "https://github.com/dotchan17/ffvancientcavetracker/archive/main.zip",
+      "link": "https://github.com/dotchan17/ffv_ancientcave_dotchan/archive/main.zip",
       "variants": [
         {
           "name": "SNES Cave",
